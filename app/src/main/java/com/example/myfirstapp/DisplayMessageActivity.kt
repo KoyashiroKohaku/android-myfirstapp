@@ -1,9 +1,9 @@
 package com.example.myfirstapp
 
 import androidx.appcompat.app.AppCompatActivity
-import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
+import com.example.myfirstapp.Constants.Companion.EXTRA_MESSAGE
 
 class DisplayMessageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
